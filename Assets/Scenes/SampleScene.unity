@@ -4684,6 +4684,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7500606414837329381, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
+      propertyPath: m_GravityScale
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500606414837329381, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8674092832632497699, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
       propertyPath: m_Name
       value: Player
@@ -4734,7 +4742,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8674092833124331772, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
       propertyPath: runSpeed
-      value: 6
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8674092833124331772, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
+      propertyPath: jumpSpeed
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
