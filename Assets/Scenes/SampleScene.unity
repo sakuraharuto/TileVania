@@ -2695,7 +2695,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8634,25 +8634,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3231542891825988905, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 4f107fde26a864402bc14b56060fdfd6, type: 2}
-    - target: {fileID: 7500606414837329381, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
-      propertyPath: m_GravityScale
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7500606414837329381, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8674092832632497699, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8674092832632497699, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8674092832632497701, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
       propertyPath: m_RootOrder
@@ -8697,14 +8681,6 @@ PrefabInstance:
     - target: {fileID: 8674092832632497701, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8674092833124331772, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
-      propertyPath: runSpeed
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8674092833124331772, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
-      propertyPath: jumpSpeed
-      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e19430ac53c04eacaeba6de1a1c305c, type: 3}
