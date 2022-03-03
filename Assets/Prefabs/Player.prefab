@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140923240761435974}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.176, y: -0.128, z: 0}
+  m_LocalPosition: {x: 0.224, y: -0.111, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8674092832632497701}
@@ -221,7 +221,9 @@ MonoBehaviour:
   runSpeed: 7
   jumpSpeed: 20
   climbSpeed: 5
-  deathKick: {x: 10, y: 10}
+  deathKick: {x: 20, y: 20}
+  bullet: {fileID: 6879476414163840605, guid: 9f8ef6208b291404dbbfd5d7b6604e2a, type: 3}
+  gun: {fileID: 510247357954720052}
 --- !u!61 &1012741060696600394
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -231,7 +233,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8674092832632497699}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4f107fde26a864402bc14b56060fdfd6, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
