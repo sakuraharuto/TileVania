@@ -110,6 +110,7 @@ public class PlayerMovement : MonoBehaviour
             myAnimator.SetTrigger("Death");
             myRigidbody.velocity = deathKick;
             Debug.Log("YOU DIED");
+            StartCoroutine(FindObjectOfType<GameSession>().ProcessPlayerDeath());
         }
     }
 }
