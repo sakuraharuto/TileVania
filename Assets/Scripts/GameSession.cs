@@ -41,6 +41,7 @@ public class GameSession : MonoBehaviour
     }
 
     void ResetGameSession(){
+        FindObjectOfType<ScenePresist>().ResetScenePresist();
         SceneManager.LoadScene(0);
         Destroy(gameObject);
     }
