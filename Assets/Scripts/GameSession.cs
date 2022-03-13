@@ -7,6 +7,7 @@ using TMPro;
 public class GameSession : MonoBehaviour
 {
     [SerializeField] int playerLives = 3;
+    [SerializeField] int score = 0;
     [SerializeField] TextMeshProUGUI livesText;
     [SerializeField] TextMeshProUGUI scoreText;
 
@@ -19,7 +20,8 @@ public class GameSession : MonoBehaviour
     }
 
     void Start() {
-        livesText.text = playerLives.ToString();    
+        livesText.text = playerLives.ToString();  
+        scoreText.text = score.ToString();  
     }
     
 
@@ -31,6 +33,11 @@ public class GameSession : MonoBehaviour
             yield return new WaitForSecondsRealtime(1);
             ResetGameSession();
         }
+    }
+
+    public void AddToScore(int pointsToAdd){
+        score += pointsToAdd;
+        scoreText.text = score.ToString();  
     }
 
     void ResetGameSession(){
